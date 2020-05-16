@@ -7,19 +7,24 @@
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <article>
-      <img src="" alt="Portret właściciela wizytówki" />
-      <h1>Filip Rybczyński</h1>
-      <p>Junior frontend developer</p>
-      <p>
-        Początkujący programista, z wykształcenia inżynier biomedyczny, z
-        zamiłowania teolog, a z konieczności analityk w banku. Interesuje się
-        frontendem, grafiką, grami logicznymi i filozofią. Zależy mu na
-        elegancji zarówno w kodzie, jak i w wyglądzie.
+  <body class="body">
+    <article class="card">
+      <img class="card__photo" src="" alt="Portret właściciela wizytówki" />
+      <h1 class="card__person">Filip Rybczyński</h1>
+      <p class="card__title">Junior frontend developer</p>
+      <p class="card__info">
+        <strong class="card__info--important">Początkujący programista</strong>,
+        z wykształcenia inżynier biomedyczny, z zamiłowania teolog, a z
+        konieczności analityk w banku. Interesuję się
+        <strong class="card__info--important">frontendem, grafiką,</strong>
+        grami logicznymi i filozofią. Zależy mu na elegancji zarówno w kodzie,
+        jak i na stronie.
       </p>
-      <p>
-        W sieci: Facebook, GitHub, Twitter.
+      <p class="card__info">
+        W sieci:
+        <a class="card__link" href="">Facebook</a>,
+        <a class="card__link" href="">GitHub</a>,
+        <a class="card__link" href="">Twitter</a>.
       </p>
     </article>
   </body>
